@@ -1,0 +1,16 @@
+
+/* div{
+height: 100px; 
+width: 300px;
+border: 10px dashed blue;
+} */
+
+*{border: 1px solid black;
+text-align: center;
+}
+
+.container{
+    margin: auto;
+    
+}
+
