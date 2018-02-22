@@ -106,6 +106,7 @@ updateLoss()
 function updateWin() {
     //add one to the win
     winCounter++
+    alert("Congrats, You win!")
     startGame()
     //Make a call to the startGame function here. 
     //This call is here to start the game once a player wins.
@@ -115,6 +116,7 @@ function updateWin() {
 function updateLoss() {
     //add one to the loss
     lossCounter++
+    alert("Uh oh, you lose try again!")
     startGame()
     //Make a call to the startGame function here.
     //This call is here to start the game once a player losses.
